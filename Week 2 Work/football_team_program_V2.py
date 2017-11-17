@@ -1,4 +1,4 @@
-total_pupils = input('Please Enter the Number Of Participants: ' + int)
+total_pupils = int (input ('Please Enter the Number Of Participants: '))
 players_per_team = 4
 number_of_players = total_pupils // players_per_team   # // = "whole parts"
 inactive_players = total_pupils % number_of_players    # % = "remainder"
